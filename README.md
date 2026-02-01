@@ -47,7 +47,6 @@ This application transforms YouTube videos into an interactive Q&A experience. B
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/youtube-video-qa-rag.git
 
 # Navigate to project directory
 cd youtube-video-qa-rag
@@ -257,42 +256,3 @@ Embedchain automatically:
 - [ ] Conversation history and context retention
 - [ ] Batch processing for multiple videos
 
-## Troubleshooting
-
-**Issue**: "No transcript available"
-- **Solution**: Ensure the video has captions/subtitles enabled
-
-**Issue**: Slow processing
-- **Solution**: Start with shorter videos; consider upgrading API plan
-
-**Issue**: API key errors
-- **Solution**: Verify your OpenAI API key in `.env` file
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- [Embedchain](https://github.com/embedchain/embedchain) for the RAG framework
-- [Streamlit](https://streamlit.io/) for the web app framework
-- [OpenAI](https://openai.com/) for GPT models
-- YouTube Transcript API for content extraction
-
-## Contact
-
-For questions, issues, or suggestions, please open an issue in the repository.
-
----
-
-**Disclaimer**: This tool is for educational and research purposes. Respect copyright and fair use policies when analyzing video content.
